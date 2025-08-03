@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: #111;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #0ff0fc88;
+  width: 320px;
+  text-align: center;
+}
+
+h2 {
+  color: #0FF0FC;
+  margin-bottom: 30px;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.input-box {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  background: #2E2E2E;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.input-box label {
+  position: absolute;
+  top: -19px;
+  left: 7px;
+  color: #0FF0FC;
+  font-size: 16px;
+  background: #111;
+  padding: 0 4px;
+  pointer-events: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #0FF0FC;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #FF0266;
+  color: #fff;
+  box-shadow: 0 0 10px #FF0266;
+}
+
+.error {
+  color: #FF0266;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.signup-text a {
+  color: #0FF0FC;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  color: #FF0266;
+  text-decoration: underline;
+}
